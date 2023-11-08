@@ -1,0 +1,458 @@
+body {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #ffff;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainVisual {
+  width: 100%;
+  height: 1840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 1080px;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  width: 1080px;
+}
+
+.vic1 {
+  width: 1080px;
+  height: 1840px;
+  background: url(../img/메인1\ 1.jpg) no-repeat center/cover;
+}
+
+.vic2 {
+  background: url(../img/메인2-1.jpg) no-repeat center/cover;
+  width: 1080px;
+  height: 1840px;
+}
+
+.vic3 {
+  background: url(../img/메인3-1.jpg) no-repeat center/cover;
+  width: 1080px;
+  height: 1840px;
+}
+
+main {
+  width: 1080px;
+  height: 100%;
+  margin-top: 3184px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sec2 {
+  width: 1080px;
+  height: 7410px;
+  background: url(../img/sec2_back.jpg) no-repeat center/cover;
+}
+
+.itemBox1 {
+  position: relative;
+  top: 17%;
+  left: 0%;
+}
+
+.itemBox1 > .item1 {
+  background: url(../img/모델배경1.png) no-repeat center/cover;
+  width: 594px;
+  height: 743px;
+  position: absolute;
+  top: -30px;
+  left: 1%;
+}
+
+.itemBox1 > .item2 {
+  background: url(../img/모델배경2.png) no-repeat center/cover;
+  width: 594px;
+  height: 743px;
+  position: absolute;
+  top: 812px;
+  left: 39%;
+}
+
+.itemBox1 > .item3 {
+  background: url(../img/모델배경3.png) no-repeat center/cover;
+  width: 331px;
+  height: 414px;
+  position: absolute;
+  top: 964px;
+  left: 24%;
+}
+
+.itemBox1 > .item4 {
+  background: url(../img/모델배경4.png) no-repeat center/cover;
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  top: 1650px;
+  left: 12%;
+}
+
+.itemBox2 {
+  position: relative;
+  top: 57%;
+  left: 0%;
+}
+
+.itemBox2 > .item1 {
+  background: url(../img/모델2-3.png) no-repeat center/cover;
+  width: 543px;
+  height: 743px;
+  position: absolute;
+  top: -4px;
+  left: 48%;
+}
+
+.itemBox2 > .item2 {
+  background: url(../img/모델2-2.png) no-repeat center/cover;
+  width: 594px;
+  height: 743px;
+  position: absolute;
+  top: 812px;
+  left: 7%;
+}
+
+.itemBox2 > .item3 {
+  background: url(../img/모델2-4.png) no-repeat center/cover;
+  width: 331px;
+  height: 414px;
+  position: absolute;
+  top: 964px;
+  left: 47%;
+}
+
+.itemBox2 > .item4 {
+  background: url(../img/모델2-1.png) no-repeat center/cover;
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  top: 1650px;
+  left: 12%;
+}
+
+.sec3 {
+  width: 1080px;
+  height: 554px;
+  background-color: #ffff;
+}
+
+.linkItem {
+}
+
+.linkItem.bic1 {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #404040;
+}
+
+.linkItem > a {
+  display: block;
+}
+
+.linkItem img {
+  width: 800px;
+  height: auto;
+}
+
+.sec4 {
+  width: 1080px;
+  height: 6452px;
+  background: url(../img/sec4_back.jpg) no-repeat center/cover;
+  position: relative;
+}
+
+.itemBox3 {
+  position: relative;
+  top: 6%;
+  left: 3%;
+}
+
+.itemBox3 > .item1 {
+  background: url(../img/모델3-1.jpg) no-repeat center/cover;
+  width: 543px;
+  height: 743px;
+  position: absolute;
+  top: -24px;
+  left: 1%;
+}
+
+.itemBox3 > .item2 {
+  background: url(../img/모델3-2.jpg) no-repeat center/cover;
+  width: 594px;
+  height: 743px;
+  position: absolute;
+  top: 812px;
+  left: 39%;
+}
+
+.itemBox3 > .item3 {
+  background: url(../img/모델3-3.jpg) no-repeat center/cover;
+  width: 331px;
+  height: 414px;
+  position: absolute;
+  top: 964px;
+  left: 24%;
+}
+
+.itemBox3 > .item4 {
+  background: url(../img/모델3-4.jpg) no-repeat center/cover;
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  top: 1650px;
+  left: 12%;
+}
+
+.itemBox4 {
+  position: relative;
+  top: 51%;
+  left: 0%;
+}
+
+.itemBox4 > .item1 {
+  background: url(../img/모델4-1.jpg) no-repeat center/cover;
+  width: 543px;
+  height: 743px;
+  position: absolute;
+  top: -15px;
+  left: 48%;
+}
+
+.itemBox4 > .item2 {
+  background: url(../img/모델4-2.jpg) no-repeat center/cover;
+  width: 594px;
+  height: 743px;
+  position: absolute;
+  top: 812px;
+  left: 7%;
+}
+
+.itemBox4 > .item3 {
+  background: url(../img/모델4-3.jpg) no-repeat center/cover;
+  width: 331px;
+  height: 414px;
+  position: absolute;
+  top: 964px;
+  left: 47%;
+}
+
+.itemBox4 > .item4 {
+  background: url(../img/모델4-4.jpg) no-repeat center/cover;
+  width: 800px;
+  height: 1000px;
+  position: absolute;
+  top: 1650px;
+  left: 12%;
+}
+
+.sec5 {
+  width: 1080px;
+  height: 554px;
+  background-color: #ffff;
+}
+
+.sec5 .bic1 {
+  padding-bottom: 20px;
+}
+
+.sec6 {
+  width: 1080px;
+  height: 1692px;
+  background: url(../img/모음제품.jpg) no-repeat center/cover;
+  position: relative;
+}
+
+.it1 {
+  position: absolute;
+  width: 359px;
+  height: 435px;
+  top: 2%;
+  left: 0%;
+}
+
+.it2 {
+  position: absolute;
+  width: 359px;
+  height: 435px;
+  top: 2%;
+  left: 34%;
+}
+
+.it3 {
+  position: absolute;
+  width: 346px;
+  height: 435px;
+  top: 2%;
+  left: 68%;
+}
+
+.it4 {
+  position: absolute;
+  width: 363px;
+  height: 441px;
+  top: 34%;
+  left: 0%;
+}
+
+.it5 {
+  position: absolute;
+  width: 363px;
+  height: 441px;
+  top: 34%;
+  left: 34%;
+}
+
+.it6 {
+  position: absolute;
+  width: 346px;
+  height: 441px;
+  top: 34%;
+  left: 68%;
+}
+
+.it7 {
+  position: absolute;
+  width: 363px;
+  height: 441px;
+  top: 67%;
+  left: 0%;
+}
+
+.it8 {
+  position: absolute;
+  width: 363px;
+  height: 441px;
+  top: 67%;
+  left: 34%;
+}
+
+.it9 {
+  position: absolute;
+  width: 346px;
+  height: 441px;
+  top: 67%;
+  left: 68%;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 786px;
+  background: url(../img/footer.jpg) no-repeat center/cover;
+  margin-top: 20px;
+}
+
+.sc-pvystx-0.iRAZYo {
+  font-size: 12px;
+  color: #000;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: top;
+  background: transparent;
+  position: fixed;
+  right: 0px;
+  bottom: 264px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-pvystx-1.iagVuI {
+  outline: none;
+  line-height: normal;
+  text-transform: none;
+  padding: 0;
+  background: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: baseline;
+  width: 52px;
+  height: 52px;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  border-left: 1px solid rgb(204, 204, 204);
+  border-image: initial;
+  border-bottom: none;
+  font-size: 15px;
+  font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.sc-pvystx-1.lcWnUT {
+  outline: none;
+  line-height: normal;
+  text-transform: none;
+  padding: 0;
+  background: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  margin: 0;
+  vertical-align: baseline;
+  width: 52px;
+  height: 52px;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  border-left: 1px solid rgb(204, 204, 204);
+  border-image: initial;
+  border-bottom: none;
+  font-size: 15px;
+  font-family: Musinsa, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(110, 110, 110);
+}
+
+.sc-1n9z06l-0.gUyyNW {
+  font-size: 12px;
+  color: #000;
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: top;
+  background: transparent;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 255px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+}
+
+.eCZCxw {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 52px;
+  height: 51px;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  border-left: 1px solid rgb(204, 204, 204);
+  border-image: initial;
+  border-bottom: none;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
